@@ -1,0 +1,51 @@
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Use viewport height to ensure full screen height */
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    padding: 20px;
+    text-align: center;
+    color: #333;
+  }
+  
+  .home-content {
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 40px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 800px; /* Limit maximum width to 800px */
+    width: 90%; /* Adjust width for responsiveness */
+    margin: 0 auto; /* Center align horizontally */
+  }
+  
+  .home h1 {
+    font-size: 4rem; /* Responsive font size */
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .home p {
+    font-size: 1.6rem; /* Responsive font size */
+    margin-bottom: 20px;
+    color: #555;
+  }
+  
+  .button-container {
+    margin-top: 30px;
+  }
+  
+  .explore-button {
+    background-color: #6c63ff;
+    color: #fff;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.4rem; /* Responsive font size */
+    transition: background-color 0.3s ease;
+  }
+  
+  .explore-button:hover {
+    background-color: #5753d7;
+  }
+  
